@@ -5,7 +5,7 @@
 
 container:
     a ldp:Container;
-    rdfs:label "Top 25 Movies (html)";
+    rdfs:label "Top 25 Movies (turtle)";
     ldp:contains
         movies:500-days-of-summer-2009.ttl,
         movies:amadeus-1984.ttl,

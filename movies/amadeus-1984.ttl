@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:46:09Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:46:09Z"^^XML:dateTime;
+    schema:datePublished "1984-09-06T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "Wolfgang Amadeus Mozart is a remarkably talented young Viennese composer who unwittingly finds a fierce rival in the disciplined and determined Antonio Salieri. Resenting Mozart for both his hedonistic lifestyle and his undeniable talent, the highly religious Salieri is gradually consumed by his jealousy and becomes obsessed with Mozart's downfall, leading to a devious scheme that has dire consequences for both men.";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/tsqcwBp1jYZdcceXXoVEby0dZkt.jpg";
+    schema:name "Amadeus";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0086879",
+        "https://www.themoviedb.org/movie/279".

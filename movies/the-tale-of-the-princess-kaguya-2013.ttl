@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:45:31Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:45:31Z"^^XML:dateTime;
+    schema:datePublished "2013-11-23T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthralls all who encounter her - but ultimately she must confront her fate, the punishment for her crime.";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/mWRQNlWXYYfd2z4FRm99MsgHgiA.jpg";
+    schema:name "The Tale of the Princess Kaguya";
+    schema:sameAs
+        "https://www.imdb.com/title/tt2576852",
+        "https://www.themoviedb.org/movie/149871".

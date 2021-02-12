@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:47:00Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:47:00Z"^^XML:dateTime;
+    schema:datePublished "2001-07-20T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg";
+    schema:name "Spirited Away";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0245429",
+        "https://www.themoviedb.org/movie/129".

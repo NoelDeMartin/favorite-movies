@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:47:24Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:47:24Z"^^XML:dateTime;
+    schema:datePublished "2001-12-18T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg";
+    schema:name "The Lord of the Rings: The Fellowship of the Ring";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0120737",
+        "https://www.themoviedb.org/movie/120".

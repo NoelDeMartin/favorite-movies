@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:47:17Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:47:17Z"^^XML:dateTime;
+    schema:datePublished "2002-12-18T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg";
+    schema:name "The Lord of the Rings: The Two Towers";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0167261",
+        "https://www.themoviedb.org/movie/121".

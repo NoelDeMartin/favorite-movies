@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:46:36Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:46:36Z"^^XML:dateTime;
+    schema:datePublished "2008-07-16T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg";
+    schema:name "The Dark Knight";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0468569",
+        "https://www.themoviedb.org/movie/155".

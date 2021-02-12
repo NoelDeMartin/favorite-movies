@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:45:10Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:45:10Z"^^XML:dateTime;
+    schema:datePublished "1994-09-10T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/dRZpdpKLgN9nk57zggJCs1TjJb4.jpg";
+    schema:name "Pulp Fiction";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0110912",
+        "https://www.themoviedb.org/movie/680".

@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:46:02Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:46:02Z"^^XML:dateTime;
+    schema:datePublished "2002-05-24T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "As a wild stallion travels across the frontiers of the Old West, he befriends a young human and finds true love with a mare.";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/cUgYrz4twiJ3QgVGpRfey984NIB.jpg";
+    schema:name "Spirit: Stallion of the Cimarron";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0166813",
+        "https://www.themoviedb.org/movie/9023".

@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:45:02Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:45:02Z"^^XML:dateTime;
+    schema:datePublished "2004-10-01T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "Obsessed with teaching his victims the value of life, a deranged, sadistic serial killer abducts the morally wayward. Once captured, they must face impossible choices in a horrific game of survival. The victims must fight to win their lives back, or die trying...";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/pparEGTCxcTiImyVFoKD0LX11N8.jpg";
+    schema:name "Saw";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0387564",
+        "https://www.themoviedb.org/movie/176".

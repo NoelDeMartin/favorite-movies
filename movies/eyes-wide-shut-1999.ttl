@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:46:52Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:46:52Z"^^XML:dateTime;
+    schema:datePublished "1999-07-16T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "After Dr. Bill Harford's wife, Alice, admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of their meetings -- and quickly discovers that he is in over his head.";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/7MYA9RbyJmDCIC5KNM4mDsdTJI.jpg";
+    schema:name "Eyes Wide Shut";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0120663",
+        "https://www.themoviedb.org/movie/345".

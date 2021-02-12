@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:46:44Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:46:44Z"^^XML:dateTime;
+    schema:datePublished "2009-01-31T00:00:00Z"^^XML:dateTime;
+    schema:description
+        """The story of a teenage boy named Yu, who falls for Yoko, a girl he runs into while working as an "up-skirt" photographer in an offshoot of the porn industry. His attempts to woo her are complicated by a spot of cross-dressing - which convinces Yoko that she is lesbian - dalliances with kung-fu and crime, and a constant struggle with the guilt that's a legacy of his Catholic upbringing.""";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/3QSGUdzG374H7pOxIdKNBpeLEUk.jpg";
+    schema:name "Love Exposure";
+    schema:sameAs
+        "https://www.imdb.com/title/tt1128075",
+        "https://www.themoviedb.org/movie/28422".

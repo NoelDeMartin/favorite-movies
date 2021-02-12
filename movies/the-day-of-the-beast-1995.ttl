@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:46:16Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:46:16Z"^^XML:dateTime;
+    schema:datePublished "1995-10-20T00:00:00Z"^^XML:dateTime;
+    schema:description
+        """The story revolves around a Basque Roman Catholic priest dedicated to committing as many sins as possible (Angulo), a death metal salesman from Carabanchel (Segura), and the Italian host of a TV show on the occult (De Razza). These go on a literal "trip" through Christmas-time Madrid to hunt for and prevent the reincarnation of the Antichrist.""";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/5qfTmgFdTCOYMw4ExtVLgFfjutg.jpg";
+    schema:name "The Day of the Beast";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0112922",
+        "https://www.themoviedb.org/movie/10722".

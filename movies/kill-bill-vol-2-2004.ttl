@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schema: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schema:Movie;
+    terms:created "2021-01-30T11:45:44Z"^^XML:dateTime;
+    terms:modified "2021-01-30T11:45:44Z"^^XML:dateTime;
+    schema:datePublished "2004-04-16T00:00:00Z"^^XML:dateTime;
+    schema:description
+        "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do \u2026 but kill Bill.";
+    schema:image
+    "https://image.tmdb.org/t/p/w500/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg";
+    schema:name "Kill Bill: Vol. 2";
+    schema:sameAs
+        "https://www.imdb.com/title/tt0378194",
+        "https://www.themoviedb.org/movie/393".
